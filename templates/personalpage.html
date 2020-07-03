@@ -1,0 +1,25 @@
+{% load static %}
+{% block title %}我的信息{% endblock %}
+{% block content %}
+<div class="row text-center vertical-middle-sm">
+    <h1>我的信息</h1>
+    <img src="../../static/images/1.png">
+    <div class="row">
+        <div class="col-md-6" >
+            <div class="row">
+                    <div class="col-md-4 text-right"><span>用户名:  {{ user.u_Name }}</span></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-right"><span>邮箱:  123@qq.com</span></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-right"><span>性别:  男</span></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-right"><span>个人介绍:  他很骚</span></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
